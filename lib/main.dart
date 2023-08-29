@@ -1,10 +1,13 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram_clone/responsive/desktop.dart';
 import 'package:instagram_clone/responsive/mobile.dart';
 import 'package:instagram_clone/responsive/responsive_screen.dart';
 import 'package:instagram_clone/responsive/tablet.dart';
 
-void main() {
+void main() async {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
